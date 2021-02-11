@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+@import url(menu.css);
+@import url(banner.css);
+@import url(blog.css);
+@import url(info.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+header .container{
+    
+}
+header{
+    width: 100%;
+    height:50px;
+    background-color: #008B8B;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+}
+
+.container{
+    width: 98%;
+    margin: auto;
+
+}
+
+h1{
+    float: left;
+}
+
+header .contenedor{
+    display: table;
+}
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+/*Welcome*/
+#welcome{
+    text-align: center;
+}
+
+#welcome p{
+    font-size: 20px;
+}
+
+/*Footer*/
+
+footer .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+
+.copy{
+    font-size: 24px;
+    text-align: center;
+}
+
+.social{
+    padding-top:10px ;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+}
+
+.social a{
+    padding: 10px;
+    color:#008B8B;
+    text-decoration: none;
+
+}
+
+/*Responsive*/
+@media(min-width: 1024px){
+    .container{
+         width: 1000px;
+    }
+}
